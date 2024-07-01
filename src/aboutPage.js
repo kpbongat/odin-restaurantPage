@@ -1,7 +1,6 @@
 function aboutPage() 
 {
 const contentDiv = document.querySelector('div#content');
-contentDiv.setAttribute('id', 'about');
 const headerText = document.createElement('h1');
 headerText.textContent = 'About';
 contentDiv.appendChild(headerText);

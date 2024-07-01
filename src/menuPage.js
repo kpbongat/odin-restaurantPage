@@ -1,7 +1,6 @@
 function menuPage() 
 {
 const contentDiv = document.querySelector('div#content');
-contentDiv.setAttribute('id', 'menu');
 const headerText = document.createElement('h1');
 headerText.textContent = 'Menu';
 contentDiv.appendChild(headerText);

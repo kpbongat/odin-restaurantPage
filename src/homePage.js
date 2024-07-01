@@ -1,7 +1,6 @@
 function homePage() 
 {
 const contentDiv = document.querySelector('div#content');
-contentDiv.setAttribute('id', 'home');
 const headerText = document.createElement('h1');
 headerText.textContent = 'Home';
 contentDiv.appendChild(headerText);

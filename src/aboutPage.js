@@ -1,6 +1,9 @@
+import removeContent from "./removeContent";
+
 function aboutPage() 
 {
 const contentDiv = document.querySelector('div#content');
+removeContent(contentDiv);
 const headerText = document.createElement('h1');
 headerText.textContent = 'About';
 contentDiv.appendChild(headerText);
